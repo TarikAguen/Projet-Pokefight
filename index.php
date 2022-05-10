@@ -1,5 +1,3 @@
-
-
 <?php
 
 // Je me connecte à la base de données : 
@@ -14,16 +12,10 @@ session_start();
 if(isset($_GET['action']) && $_GET['action'] == 'deconnexion') {
 	session_destroy();
 	// Je le rédirige vers l'accueil :
-	header('location:./profil.php');
+	header('location:../homepage/connexion.php');
 }
+
+// var_dump("JaaJ");
 
 // Je déclare une variable qui me permet d'afficher des messages pour l'utilisateur
 $content = '';
-
-
-
-
-
-
-
-?>
