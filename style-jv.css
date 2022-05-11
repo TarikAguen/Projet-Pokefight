@@ -1,0 +1,119 @@
+     body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
+     
+     .background {
+         background-image: url('images/pokefight-bg.svg');
+         width: 100vw;
+         height: 100vh;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-size: contain;
+     }
+     
+     .logo {
+         width: 80%;
+         margin-top: 10%;
+         margin-bottom: 5%;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         background-position: center;
+     }
+     
+     .text {
+         font-family: 'Press Start 2P', cursive;
+         font-size: 32px;
+         margin: 3%;
+         color: white;
+     }
+     
+     .body_classement {
+         background-color: black;
+         display: flex;
+         flex-direction: column;
+     }
+     
+     .lien_classement {
+         text-decoration: none;
+         font-family: 'Press Start 2P', cursive;
+         color: white;
+         font-size: 25px;
+         position: absolute;
+         left: 50px;
+         top: 83px;
+     }
+     
+     .contenaire_titre_logo_classement {
+         display: flex;
+         width: 910px;
+         height: 90px;
+         justify-content: center;
+         align-items: flex-end;
+         margin-top: 200px;
+         margin-bottom: 74px;
+     }
+     
+     .titre_classement {
+         color: white;
+         font-family: 'Press Start 2P', cursive;
+         font-size: 36px;
+         margin-left: 20px;
+     }
+     
+     .coeur {
+         width: 50px;
+         height: 50px;
+     }
+     
+     .logo_trophe {
+         height: 82px;
+         width: 82px;
+     }
+     
+     table,
+     td,
+     tr {
+         border: 5px, white;
+     }
+     
+     .tableau {
+         display: flex;
+         width: 994px;
+         height: 494px;
+         border: solid white;
+     }
+     
+     .colonne_ext {
+         display: flex;
+         flex-direction: column;
+         width: 20%;
+         border: solid white;
+     }
+     
+     .colonne {
+         display: flex;
+         flex-direction: column;
+         width: 60%;
+         border: solid white;
+     }
+     
+     .ligne {
+         border: solid white;
+         height: 16%;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .text_tableau {
+         color: white;
+         font-size: 25px;
+         font-family: 'Press Start 2P', cursive;
+     }
